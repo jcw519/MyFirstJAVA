@@ -50,7 +50,6 @@ public class MyDateTest {
 		System.out.println(date1.hashCode());
 		System.out.println(date2.hashCode());
 		
-		System.out.println("?덈뀞?섏꽭??);
 		
 	}
 	
