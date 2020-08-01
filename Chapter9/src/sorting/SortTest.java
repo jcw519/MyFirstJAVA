@@ -1,11 +1,11 @@
-package sorting;
+ï»¿package sorting;
 
 import java.io.IOException;
 
 public class SortTest {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Á¤·Ä¹æ½ÄÀ» ¼±ÅÃÇÏ¼¼¿ä.");
+		System.out.println("ì •ë ¬ë°©ì‹ì„ ì„ íƒí•˜ì„¸ìš”.");
 		System.out.println("B : bubble sort");
 		System.out.println("H : heap sort");
 		System.out.println("Q : quic sort");

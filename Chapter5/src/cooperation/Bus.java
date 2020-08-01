@@ -1,4 +1,4 @@
-package cooperation;
+ï»¿package cooperation;
 
 public class Bus {
 
@@ -16,7 +16,7 @@ public class Bus {
 	}
 	
 	public void showBusInfo() {
-		System.out.println(busNumber+"¹ø ¹ö½º¿¡ Å¾½ÂÇÑ ¼Õ´ÔÀº "+ passengerCount+"¸í ÀÔ´Ï´Ù.");
-		System.out.println("¼öÀÔÀº "+money+"ÀÔ´Ï´Ù.");
+		System.out.println(busNumber+"ë²ˆ ë²„ìŠ¤ì— íƒ‘ìŠ¹í•œ ì†ë‹˜ì€ "+ passengerCount+"ëª… ì…ë‹ˆë‹¤.");
+		System.out.println("ìˆ˜ì…ì€ "+money+"ì…ë‹ˆë‹¤.");
 	}
 }

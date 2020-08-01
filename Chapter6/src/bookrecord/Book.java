@@ -1,4 +1,4 @@
-package bookrecord;
+﻿package bookrecord;
 
 public class Book {
 	private String bookName;

@@ -1,4 +1,4 @@
-package arrayList;
+ï»¿package arrayList;
 
 import java.util.ArrayList;
 
@@ -23,8 +23,8 @@ public class Student {
 		int total = 0;
 		for(Subject subject: subjectList) {
 		total += subject.getScore();	
-		System.out.println(studentName+"ÇĞ»ıÀÇ "+subject.getSubjectName()+"°ú¸ñÀÇ ¼ºÀûÀº "+subject.getScore()+"Á¡ ÀÔ´Ï´Ù.");
+		System.out.println(studentName+"í•™ìƒì˜ "+subject.getSubjectName()+"ê³¼ëª©ì˜ ì„±ì ì€ "+subject.getScore()+"ì  ì…ë‹ˆë‹¤.");
 		}
-		System.out.println(studentName+"ÇĞ»ıÀÇ ÃÑÁ¡Àº "+total+"Á¡ ÀÔ´Ï´Ù.");
+		System.out.println(studentName+"í•™ìƒì˜ ì´ì ì€ "+total+"ì  ì…ë‹ˆë‹¤.");
 	}
 }

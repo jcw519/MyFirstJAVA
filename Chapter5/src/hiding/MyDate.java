@@ -1,4 +1,4 @@
-package hiding;
+ï»¿package hiding;
 
 public class MyDate {
 
@@ -37,10 +37,10 @@ public class MyDate {
 	
 	public void showDate() {
 		if(isValid) {
-		System.out.println(year+"³â "+month+"¿ù "+day+"ÀÏÀÔ´Ï´Ù.");
+		System.out.println(year+"ë…„ "+month+"ì›” "+day+"ì¼ì…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ³¯Â¥ÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ë‚ ì§œì…ë‹ˆë‹¤.");
 		}
 	}
 }

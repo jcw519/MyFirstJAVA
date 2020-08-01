@@ -1,4 +1,4 @@
-package bookrecord;
+ï»¿package bookrecord;
 
 public class StudentTest {
 
@@ -7,19 +7,19 @@ public class StudentTest {
 		Student studentKim = new Student("Kim");
 		Student studentCho = new Student("Cho");
 		
-		studentLee.addBook("ÅÂ¹é»ê¸Æ1", 20000);
-		studentLee.addBook("ÅÂ¹é»ê¸Æ2", 18000);
+		studentLee.addBook("íƒœë°±ì‚°ë§¥1", 20000);
+		studentLee.addBook("íƒœë°±ì‚°ë§¥2", 18000);
 		
-		studentKim.addBook("ÅäÁö1", 12000);
-		studentKim.addBook("ÅäÁö2", 13000);
-		studentKim.addBook("ÅäÁö3", 13000);
+		studentKim.addBook("í† ì§€1", 12000);
+		studentKim.addBook("í† ì§€2", 13000);
+		studentKim.addBook("í† ì§€3", 13000);
 		
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ1", 11000);
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ2", 11000);
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ3", 11000);
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ4", 11000);
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ5", 11000);
-		studentCho.addBook("ÇØ¸®Æ÷ÅÍ6", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°1", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°2", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°3", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°4", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°5", 11000);
+		studentCho.addBook("í•´ë¦¬í¬í„°6", 11000);
 		
 		studentLee.showReadInfo();
 		studentKim.showReadInfo();

@@ -1,4 +1,4 @@
-package exampletest3;
+ï»¿package exampletest3;
 
 import staticex.Company;
 
@@ -17,7 +17,7 @@ public class CardCompany {
 		return instance;
 	}
 	
-	//»ı¼ºÀÚ ¸Å¼­µå
+	//ìƒì„±ì ë§¤ì„œë“œ
 	public Card createCard() {
 		Card card = new Card();
 		return card;

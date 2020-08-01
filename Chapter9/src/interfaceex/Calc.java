@@ -1,4 +1,4 @@
-package interfaceex;
+ï»¿package interfaceex;
 
 public interface Calc {
 	double pi = 3.14;
@@ -12,7 +12,7 @@ public interface Calc {
 	public String stringAdd(String s1, String s2);
 	
 	default void description() {
-		System.out.println("Á¡¼ö °è»ê±â¸¦ ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("ì ìˆ˜ ê³„ì‚°ê¸°ë¥¼ êµ¬í˜„í•©ë‹ˆë‹¤.");
 	}
 	
 	static int total(int[] arr) {

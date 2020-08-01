@@ -1,4 +1,4 @@
-package polymorphism;
+ï»¿package polymorphism;
 
 public class Customer {
 	
@@ -21,7 +21,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo() {
-		return customerName + "´ÔÀÇ µî±ŞÀº " + customerGrade+"ÀÌ¸ç, Àû¸³µÈ º¸³Ê½º Æ÷ÀÎÆ®´Â "+ bonusPoint +"Á¡ ÀÔ´Ï´Ù.";
+		return customerName + "ë‹˜ì˜ ë“±ê¸‰ì€ " + customerGrade+"ì´ë©°, ì ë¦½ëœ ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ëŠ” "+ bonusPoint +"ì  ì…ë‹ˆë‹¤.";
 	}
 	
 		

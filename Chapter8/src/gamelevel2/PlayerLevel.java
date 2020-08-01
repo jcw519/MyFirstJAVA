@@ -1,4 +1,4 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public  abstract class PlayerLevel {
 	
@@ -8,7 +8,7 @@ public  abstract class PlayerLevel {
 	public abstract void showLevelMessage();
 	
 	
-	//ÅÛÇÃ¸´ ¸Ş¼­µå : ·¹º§¿¡ µû¶ó ÁøÇàµÇ´Â ½Ã³ª¸®¿À
+	//í…œí”Œë¦¿ ë©”ì„œë“œ : ë ˆë²¨ì— ë”°ë¼ ì§„í–‰ë˜ëŠ” ì‹œë‚˜ë¦¬ì˜¤
 	final public void go(int count) {
 		run();
 		

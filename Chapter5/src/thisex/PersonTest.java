@@ -1,4 +1,4 @@
-package thisex;
+ï»¿package thisex;
 
 public class PersonTest {
 
@@ -7,7 +7,7 @@ public class PersonTest {
 		Person personNoname = new Person();
 		personNoname.showInfo();
 		
-		Person personJeong = new Person("Á¤Ã¤¿ø", 22);
+		Person personJeong = new Person("ì •ì±„ì›", 22);
 		personJeong.showInfo();
 		
 		System.out.println(personJeong);

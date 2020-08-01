@@ -1,4 +1,4 @@
-package customer;
+ï»¿package customer;
 
 public class VIPCustomer extends Customer{
 
@@ -23,7 +23,7 @@ public class VIPCustomer extends Customer{
 
 	@Override
 	public String showCustomerInfo() {
-		return super.showCustomerInfo() + " ´ã´ç »ó´ã¿ø ¹øÈ£´Â " + agentID + "ÀÔ´Ï´Ù.";
+		return super.showCustomerInfo() + " ë‹´ë‹¹ ìƒë‹´ì› ë²ˆí˜¸ëŠ” " + agentID + "ì…ë‹ˆë‹¤.";
 	}
 	
 	

@@ -1,28 +1,28 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public class SuperLevel extends PlayerLevel{
 
 	@Override
 	public void run() {
-		System.out.println("¾ÆÁÖ ºü¸£°Ô ´Ş¸³´Ï´Ù.");
+		System.out.println("ì•„ì£¼ ë¹ ë¥´ê²Œ ë‹¬ë¦½ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void jump() {
-		System.out.println("¾öÃ» ³ôÀÌ Á¡ÇÁ ÇÕ´Ï´Ù.");
+		System.out.println("ì—„ì²­ ë†’ì´ ì í”„ í•©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void turn() {
-		System.out.println("ÇÑ ¹ÙÄû µ¹ ¼ö ÀÖ½À´Ï´Ù.");
+		System.out.println("í•œ ë°”í€´ ëŒ ìˆ˜ ìˆìŠµë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("=========°í±ŞÀÚ=========");
+		System.out.println("=========ê³ ê¸‰ì=========");
 	}
 
 }

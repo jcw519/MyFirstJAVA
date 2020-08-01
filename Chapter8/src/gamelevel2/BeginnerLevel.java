@@ -1,28 +1,28 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public class BeginnerLevel extends PlayerLevel {
 
 	@Override
 	public void run() {
-		System.out.println("ÃµÃµÈ÷ ´Ş¸³´Ï´Ù.");
+		System.out.println("ì²œì²œíˆ ë‹¬ë¦½ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void jump() {
-		System.out.println("jump ºÒ°¡´É");
+		System.out.println("jump ë¶ˆê°€ëŠ¥");
 		
 	}
 
 	@Override
 	public void turn() {
-		System.out.println("turn ºÒ°¡´É");
+		System.out.println("turn ë¶ˆê°€ëŠ¥");
 		
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("=========ÃÊ±ŞÀÚ=========");
+		System.out.println("=========ì´ˆê¸‰ì=========");
 		
 	}
 

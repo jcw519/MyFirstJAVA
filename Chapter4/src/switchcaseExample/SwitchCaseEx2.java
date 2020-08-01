@@ -1,4 +1,4 @@
-package switchcaseExample;
+ï»¿package switchcaseExample;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class SwitchCaseEx2 {
 		default : medalColor = 'A';
 		}
 		
-		System.out.println(rank +"µîÀº "+ medalColor + "¸Ş´Ş ÀÔ´Ï´Ù." );
+		System.out.println(rank +"ë“±ì€ "+ medalColor + "ë©”ë‹¬ ì…ë‹ˆë‹¤." );
 	}
 
 }

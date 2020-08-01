@@ -1,4 +1,4 @@
-package sorting;
+﻿package sorting;
 
 public class HeapSort implements Sort{
 	@Override
@@ -16,7 +16,7 @@ public class HeapSort implements Sort{
 	@Override
 	public void description() {
 		Sort.super.description();
-		System.out.println("Heap Sort �Դϴ�.");
+		System.out.println("Heap Sort 입니다.");
 	}
 	
 	

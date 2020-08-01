@@ -1,10 +1,10 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public class Player {
 	
 	PlayerLevel playerLevel;
 	
-	//player°¡ »ı¼ºµÇ¸é Ã³À½ ·¹º§Àº ºñ±â³ÊÀÌ´Ù.
+	//playerê°€ ìƒì„±ë˜ë©´ ì²˜ìŒ ë ˆë²¨ì€ ë¹„ê¸°ë„ˆì´ë‹¤.
 	public Player() {
 		playerLevel = new BeginnerLevel();
 		playerLevel.showLevelMessage();

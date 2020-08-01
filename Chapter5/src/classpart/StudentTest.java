@@ -1,22 +1,22 @@
-package classpart;
+ï»¿package classpart;
 
 public class StudentTest {
 
 	public static void main(String[] args) {
 		
-		Student studentLee = new Student(201912461,"ÀÌ¼ø½Å" ); //»ı¼ºÀÚ
-		//'.' : ÂüÁ¶ º¯¼ö
+		Student studentLee = new Student(201912461,"ì´ìˆœì‹ " ); //ìƒì„±ì
+		//'.' : ì°¸ì¡° ë³€ìˆ˜
 		
 		studentLee.studentID = 201912461;
 		
 		studentLee.showStudentInfo();
 		
-		Student studentKim = new Student(201911686, "±èÀ¯½Å");
-		//'.' : ÂüÁ¶ º¯¼ö
-		studentKim.address = "ºÎ»ê";
+		Student studentKim = new Student(201911686, "ê¹€ìœ ì‹ ");
+		//'.' : ì°¸ì¡° ë³€ìˆ˜
+		studentKim.address = "ë¶€ì‚°";
 		studentKim.showStudentInfo();
 		
-		Student studentjeong = new Student("Á¤Ã¤¿ø");
+		Student studentjeong = new Student("ì •ì±„ì›");
 		studentjeong.showStudentInfo();
 		
 		

@@ -1,4 +1,4 @@
-package array;
+ï»¿package array;
 
 public class ArrayCopy {
 
@@ -7,7 +7,7 @@ public class ArrayCopy {
 		int[] arr1 = {10, 20, 30, 40, 50};
 		int[] arr2 = {1, 2, 3, 4, 5};
 		
-		//¹è¿­ º¹»ç
+		//ë°°ì—´ ë³µì‚¬
 		System.arraycopy(arr1, 0, arr2, 1, 3);
 		
 		for(int i = 0; i<arr2.length;i++) {

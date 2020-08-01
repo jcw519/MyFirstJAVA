@@ -1,20 +1,20 @@
-package staticex;
+ï»¿package staticex;
 
-//classÆÄÀÏ ÇÏ³ª¿¡ ´Ù¸¥ classµµ ÀÖÀ» ¼ö ÀÖ´Ù.
+//classíŒŒì¼ í•˜ë‚˜ì— ë‹¤ë¥¸ classë„ ìˆì„ ìˆ˜ ìˆë‹¤.
 
 
 
-//publicÀÌ µé¾î°£  class´Â classÆÄÀÏ¿¡ ÇÏ³ª¸¸ Á¸ÀçÇÏ¿©¾ß ÇÏ°í class¸íÀº javaÆÄÀÌ·Î°¡ ¶È°°¾Æ¾ßÇÏ³®.
+//publicì´ ë“¤ì–´ê°„  classëŠ” classíŒŒì¼ì— í•˜ë‚˜ë§Œ ì¡´ì¬í•˜ì—¬ì•¼ í•˜ê³  classëª…ì€ javaíŒŒì´ë¡œê°€ ë˜‘ê°™ì•„ì•¼í•˜ë‚Ÿ.
 public class Student {
 	
 	private static int serialNum = 1000;
 	public int studentID;
 	public String studentName; //char[];
-	public String address = "ÁÖ¼Ò ¾øÀ½";
-	//public : Á¢±Ù Á¦¾îÀÚ
+	public String address = "ì£¼ì†Œ ì—†ìŒ";
+	//public : ì ‘ê·¼ ì œì–´ì
 	
 	
-	//¿À¹ö·Îµù
+	//ì˜¤ë²„ë¡œë”©
 	public Student(String name) {
 		studentName = name;
 		serialNum++;
@@ -35,7 +35,7 @@ public class Student {
 	public Student(int id, String name){
 	studentID = id;
 	studentName = name;
-	address = "ÁÖ¼Ò ¾øÀ½";
+	address = "ì£¼ì†Œ ì—†ìŒ";
 	serialNum++;
 	studentID = serialNum;
 	}
@@ -44,7 +44,7 @@ public class Student {
 		return studentID;
 	}
 
-	//±â´ÉÀº ¸Ş¼­µå·Î ±¸ÇöÇÑ´Ù.
+	//ê¸°ëŠ¥ì€ ë©”ì„œë“œë¡œ êµ¬í˜„í•œë‹¤.
 	
 	public void showStudentInfo() {
 		System.out.println(studentName + "," + address+","+studentID);

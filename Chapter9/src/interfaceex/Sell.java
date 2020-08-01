@@ -1,9 +1,9 @@
-package interfaceex;
+ï»¿package interfaceex;
 
 public interface Sell {
 	void sell();
 	
 	default void order() {
-		System.out.println("ÆÇ¸ÅÁÖ¹®");
+		System.out.println("íŒë§¤ì£¼ë¬¸");
 	}
 }

@@ -1,9 +1,9 @@
-package abstractex;
+ï»¿package abstractex;
 
 public class ComputerTest {
 
 	public static void main(String[] args) {
-		//Ãß»óÅ¬·¡½º´Â »ı¼ºÀÌ ¾ÈµÊ
+		//ì¶”ìƒí´ë˜ìŠ¤ëŠ” ìƒì„±ì´ ì•ˆë¨
 		
 		Computer computer = new DeskTop();
 		computer.display();

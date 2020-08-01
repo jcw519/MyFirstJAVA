@@ -1,4 +1,4 @@
-package cooperation;
+ï»¿package cooperation;
 
 public class Taxi {
 	int taxiNumber;
@@ -15,7 +15,7 @@ public class Taxi {
 	}
 	
 	public void showTaxiInfo() {
-		System.out.println(taxiNumber+"¹ø ÅÃ½Ã°¡ ÅÂ¿î ¼Õ´ÔÀº ÃÑ"+passengerCount+"¸íÀÔ´Ï´Ù.");
-		System.out.println("ÃÑ ¼öÀÔÀº "+money+"ÀÔ´Ï´Ù");	
+		System.out.println(taxiNumber+"ë²ˆ íƒì‹œê°€ íƒœìš´ ì†ë‹˜ì€ ì´"+passengerCount+"ëª…ì…ë‹ˆë‹¤.");
+		System.out.println("ì´ ìˆ˜ì…ì€ "+money+"ì…ë‹ˆë‹¤");	
 	}
 }

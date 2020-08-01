@@ -1,4 +1,4 @@
-package array;
+锘縫ackage array;
 
 public class BookArrayTest {
 
@@ -6,11 +6,11 @@ public class BookArrayTest {
 
 		Book[] library = new Book[5];
 		
-		library[0] = new Book("秦府器磐0","费傅");
-		library[1] = new Book("秦府器磐1","费傅");
-		library[2] = new Book("秦府器磐2","费傅");
-		library[3] = new Book("秦府器磐3","费傅");
-		library[4] = new Book("秦府器磐4","费傅");
+		library[0] = new Book("頃措Μ韽劙0","搿る");
+		library[1] = new Book("頃措Μ韽劙1","搿る");
+		library[2] = new Book("頃措Μ韽劙2","搿る");
+		library[3] = new Book("頃措Μ韽劙3","搿る");
+		library[4] = new Book("頃措Μ韽劙4","搿る");
 		
 		for(int i = 0; i < library.length; i++) {
 			System.out.println(library[i]);

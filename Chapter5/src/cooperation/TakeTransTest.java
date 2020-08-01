@@ -1,11 +1,11 @@
-package cooperation;
+ï»¿package cooperation;
 
 public class TakeTransTest {
 
 	public static void main(String[] args) {
 
-		Student studentJ = new Student("Á¤Ã¤¿ø", 10000);
-		Student studentL = new Student("ÀÌÈ¿±Ù", 20000);
+		Student studentJ = new Student("ì •ì±„ì›", 10000);
+		Student studentL = new Student("ì´íš¨ê·¼", 20000);
 		Student studentE = new Student("Edward", 45000);
 		
 		Bus bus100 = new Bus(100);

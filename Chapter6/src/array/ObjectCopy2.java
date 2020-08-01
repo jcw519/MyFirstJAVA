@@ -1,4 +1,4 @@
-package array;
+ï»¿package array;
 
 public class ObjectCopy2 {
 
@@ -7,13 +7,13 @@ public class ObjectCopy2 {
 		Book[] library = new Book[5];
 		Book[] copyLibrary = new Book[5];
 		
-		library[0] = new Book("ÇØ¸®Æ÷ÅÍ0","·Ñ¸µ");
-		library[1] = new Book("ÇØ¸®Æ÷ÅÍ1","·Ñ¸µ");
-		library[2] = new Book("ÇØ¸®Æ÷ÅÍ2","·Ñ¸µ");
-		library[3] = new Book("ÇØ¸®Æ÷ÅÍ3","·Ñ¸µ");
-		library[4] = new Book("ÇØ¸®Æ÷ÅÍ4","·Ñ¸µ");
+		library[0] = new Book("í•´ë¦¬í¬í„°0","ë¡¤ë§");
+		library[1] = new Book("í•´ë¦¬í¬í„°1","ë¡¤ë§");
+		library[2] = new Book("í•´ë¦¬í¬í„°2","ë¡¤ë§");
+		library[3] = new Book("í•´ë¦¬í¬í„°3","ë¡¤ë§");
+		library[4] = new Book("í•´ë¦¬í¬í„°4","ë¡¤ë§");
 		
-		//±íÀº º¹»ç
+		//ê¹Šì€ ë³µì‚¬
 		copyLibrary[0] = new Book();
 		copyLibrary[1] = new Book();
 		copyLibrary[2] = new Book();
@@ -27,15 +27,15 @@ public class ObjectCopy2 {
 		}
 		/*----------------------------------------------*/
 		
-		//¾èÀº º¹»ç
+		//ì–•ì€ ë³µì‚¬
 		//System.arraycopy(library, 0, copyLibrary, 0, 5);
 		
 		/*for(Book book : copyLibrary) {
 			book.showBookInfo();
 		}*/
 		
-		library[0].setTitle("³ª¸ñ");
-		library[0].setAuthor("¹Ú¿Ï¼­");
+		library[0].setTitle("ë‚˜ëª©");
+		library[0].setAuthor("ë°•ì™„ì„œ");
 		
 		for(Book book : library) {
 			book.showBookInfo();

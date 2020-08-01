@@ -1,4 +1,4 @@
-
+ï»¿
 package operator;
 
 public class OperatorEx1 {
@@ -10,7 +10,7 @@ public class OperatorEx1 {
 		System.out.println(+num1);
 		System.out.println(+num2);
 		
-		//-(ºÎÈ£)¿¬»êÀÚ : ºÎÈ£°¡ ¹Ù²ñ
+		//-(ë¶€í˜¸)ì—°ì‚°ì : ë¶€í˜¸ê°€ ë°”ë€œ
 	
 		System.out.println(-num1);
 		System.out.println(-num2);

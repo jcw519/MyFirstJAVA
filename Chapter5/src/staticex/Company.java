@@ -1,12 +1,12 @@
-package staticex;
+ï»¿package staticex;
 
 public class Company {
-	//À¯ÀÏÇÑ ÀÎ½ºÅÏ½º »ı¼º, ¿ÜºÎ¿¡¼­ »ı¼ºÀÚ¸¦ ÅëÇØ¼­ »ı¼ººÒ°¡
+	//ìœ ì¼í•œ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±, ì™¸ë¶€ì—ì„œ ìƒì„±ìë¥¼ í†µí•´ì„œ ìƒì„±ë¶ˆê°€
 	private static Company instance = new Company();
 	
-	private Company() {} //compilar°¡ ¿ÜºÎ¿¡¼­ publicÇÑ »ı¼ºÀå x
+	private Company() {} //compilarê°€ ì™¸ë¶€ì—ì„œ publicí•œ ìƒì„±ì¥ x
 	
-	//¿ÜºÎ¿¡¼­ ÇØ´ç ÀÎ½ºÅÏ½º¸¦ È£ÃâÇÒ public ÇÑ ¸Å¼­µå
+	//ì™¸ë¶€ì—ì„œ í•´ë‹¹ ì¸ìŠ¤í„´ìŠ¤ë¥¼ í˜¸ì¶œí•  public í•œ ë§¤ì„œë“œ
 	public static Company getInstance() {
 		if(instance == null) {
 			instance = new Company();

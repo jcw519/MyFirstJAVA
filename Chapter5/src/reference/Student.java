@@ -1,4 +1,4 @@
-package reference;
+ï»¿package reference;
 
 public class Student {
 	int studentID;
@@ -13,7 +13,7 @@ public class Student {
 		studentID = id;
 		studentName = name;
 		
-		//»ı¼ºÀÚ¿¡¼­ ÂüÁ¶ÀÚ·áÇü¿¡´ëÇÑ »ı¼ºÀ» ÇØÁà¾ßÇÔ 
+		//ìƒì„±ìì—ì„œ ì°¸ì¡°ìë£Œí˜•ì—ëŒ€í•œ ìƒì„±ì„ í•´ì¤˜ì•¼í•¨ 
 		korea = new Subject();
 		math = new Subject();
 		english = new Subject();
@@ -42,12 +42,12 @@ public class Student {
 	
 	
 	public void showInfoStudent() {
-		System.out.println("ÇĞ¹ø: "+studentID);
-		System.out.println("ÀÌ¸§: "+studentName);
-		System.out.println("±¹¾î¼ºÀû: "+korea.score);
-		System.out.println("¼öÇĞ¼ºÀû: "+math.score);
-		System.out.println("¿µ¾î¼ºÀû: "+english.score);
-		System.out.println("°úÇĞ¼ºÀû: "+sience.score);
+		System.out.println("í•™ë²ˆ: "+studentID);
+		System.out.println("ì´ë¦„: "+studentName);
+		System.out.println("êµ­ì–´ì„±ì : "+korea.score);
+		System.out.println("ìˆ˜í•™ì„±ì : "+math.score);
+		System.out.println("ì˜ì–´ì„±ì : "+english.score);
+		System.out.println("ê³¼í•™ì„±ì : "+sience.score);
 		
 	}
 	

@@ -1,28 +1,28 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public class AdvancedLevel extends PlayerLevel{
 
 	@Override
 	public void run() {
-		System.out.println("ºü¸£°Ô ´Ş¸³´Ï´Ù.");
+		System.out.println("ë¹ ë¥´ê²Œ ë‹¬ë¦½ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void jump() {
-		System.out.println("Á¡ÇÁ ÇÕ´Ï´Ù.");
+		System.out.println("ì í”„ í•©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void turn() {
-		System.out.println("turn ºÒ°¡´É.");
+		System.out.println("turn ë¶ˆê°€ëŠ¥.");
 		
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("=========Áß±ŞÀÚ=========");
+		System.out.println("=========ì¤‘ê¸‰ì=========");
 		
 	}
 

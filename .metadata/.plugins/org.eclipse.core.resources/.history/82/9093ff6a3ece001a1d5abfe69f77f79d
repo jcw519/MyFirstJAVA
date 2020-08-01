@@ -1,6 +1,0 @@
-package gamelevel2;
-
-public  abstract class PlayerLevel {
-	
-	pubilc abstract void run();
-}

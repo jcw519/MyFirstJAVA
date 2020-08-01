@@ -1,4 +1,4 @@
-package customer;
+﻿package customer;
 
 public class GOLDCustomer extends Customer {
 

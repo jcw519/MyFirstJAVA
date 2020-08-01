@@ -1,16 +1,16 @@
-package inheritance;
+ï»¿package inheritance;
 
 public class OverridingTest {
 
 	public static void main(String[] args) {
 		Customer customerLee = new Customer();
-		customerLee.setCustomerName("ÀÌ¼ø½Å");
+		customerLee.setCustomerName("ì´ìˆœì‹ ");
 		customerLee.setCustomerID(10010);
 		customerLee.bonusPoint = 10000;
 		System.out.println(customerLee.showCustomerInfo());
 		
 		VIPCustomer customerKim = new VIPCustomer();
-		customerKim.setCustomerName("±èÀ¯½Å");
+		customerKim.setCustomerName("ê¹€ìœ ì‹ ");
 		customerKim.setCustomerID(10020);
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
@@ -21,9 +21,9 @@ public class OverridingTest {
 		System.out.println(priceLee);
 		System.out.println(priceKim);
 		
-		//customerJeongÀÇ Å¸ÀÔÀº CustomerÀÌÁö¸¸ ¸Ş¼­µå´Â ÀÎ½ºÅÏ½º±âÁØÀ¸·Î ÈÄÃâ
+		//customerJeongì˜ íƒ€ì…ì€ Customerì´ì§€ë§Œ ë©”ì„œë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ê¸°ì¤€ìœ¼ë¡œ í›„ì¶œ
 		Customer customerJeong = new VIPCustomer();
-		customerKim.setCustomerName("Á¤Ã¤¿ø");
+		customerKim.setCustomerName("ì •ì±„ì›");
 		customerKim.setCustomerID(10030);
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());

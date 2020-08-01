@@ -1,4 +1,4 @@
-package variable;
+ï»¿package variable;
 
 public class ImplicitConversion {
 
@@ -16,7 +16,7 @@ public class ImplicitConversion {
 		System.out.println(fNum);
 		
 		double dNum;
-		dNum = fNum + iNum;  //µÎ¹øÀÇ Çü¹øÈ¯
+		dNum = fNum + iNum;  //ë‘ë²ˆì˜ í˜•ë²ˆí™˜
 		
 		System.out.println(dNum);
 		

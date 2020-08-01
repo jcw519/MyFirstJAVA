@@ -1,4 +1,4 @@
-package sorting;
+﻿package sorting;
 
 public class QuickSort implements Sort {
 
@@ -17,6 +17,6 @@ public class QuickSort implements Sort {
 	@Override
 	public void description() {
 		Sort.super.description();
-		System.out.println("Quick Sort �Դϴ�.");
+		System.out.println("Quick Sort 입니다.");
 	}
 }

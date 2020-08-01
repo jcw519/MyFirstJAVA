@@ -1,4 +1,4 @@
-package ifexample;
+ï»¿package ifexample;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class IfExample2 {
 		} 
 		else if (age<14) {
 			charge = 1500;	
-			System.out.println("ÃÊµî»ý");
+			System.out.println("ì´ˆë“±ìƒ");
 		}
 		else if (age < 20) {
 			charge = 2000;
@@ -27,8 +27,8 @@ public class IfExample2 {
 			charge = 3000;
 		}
 		
-		System.out.println("³ªÀÌ : " + age);
-		System.out.println("¿ä±Ý : " + charge);
+		System.out.println("ë‚˜ì´ : " + age);
+		System.out.println("ìš”ê¸ˆ : " + charge);
 	}
 
 }

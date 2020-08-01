@@ -1,4 +1,4 @@
-package sorting;
+ï»¿package sorting;
 
 public interface Sort {
 	
@@ -6,7 +6,7 @@ public interface Sort {
 	void descending(int[] arr);
 	
 	default void description() {
-		System.out.println("¼ıÀÚ¸¦ Á¤·ÄÇÏ´Â ¾Ë°íÁúÁò ÀÔ´Ï´Ù.");
+		System.out.println("ìˆ«ìë¥¼ ì •ë ¬í•˜ëŠ” ì•Œê³ ì§ˆì¦˜ ì…ë‹ˆë‹¤.");
 	}
 	
 }

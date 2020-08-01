@@ -1,4 +1,4 @@
-package object;
+ï»¿package object;
 
 class Student{
 	int studentNum;
@@ -30,9 +30,9 @@ public class EqualsTest {
 
 	public static void main(String[] args) {
 		
-		Student Lee = new Student(100, "ÀÌ¼ø½Å");
+		Student Lee = new Student(100, "ì´ìˆœì‹ ");
 		Student Lee2 = Lee;
-		Student Shin = new Student(100, "ÀÌ¼ø½Å");
+		Student Shin = new Student(100, "ì´ìˆœì‹ ");
 		
 		System.out.println(Lee == Shin);
 		

@@ -1,4 +1,4 @@
-package staticex;
+﻿package staticex;
 
 public class StudentIdTest {
 

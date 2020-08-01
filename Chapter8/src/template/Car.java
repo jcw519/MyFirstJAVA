@@ -1,4 +1,4 @@
-package template;
+ï»¿package template;
 
 public abstract class Car {
 
@@ -6,17 +6,17 @@ public abstract class Car {
 	public abstract void stop();
 	
 	public void startCar() {
-		System.out.println("½Ãµ¿À» °Ì´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ê²ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
 	public void washCar() {}
 	
 	//template method
-	//ÇÁ·¹ÀÓ¿öÅ©ÀÇ ÇüÅÂ
+	//í”„ë ˆì„ì›Œí¬ì˜ í˜•íƒœ
 	final public void run() {
 		startCar();
 		drive();
@@ -24,9 +24,9 @@ public abstract class Car {
 		turnOff();
 		washCar();
 	}
-	//final ¿¹¾à¾î
-	//final ¸Ş¼­µå´Â ÇÏÀ§ Å¬·¡½º¿¡¼­ ÀçÁ¤ÀÇ (overriding)ÇÒ ¼ö ¾øÀ½
-	//final Å¬·¡½º´Â ´õ ÀÌ»ó »ó¼ÓµÇÁö ¾ÊÀ½
-	//ex) javaÀÇ StringÅ¬·¡½º
+	//final ì˜ˆì•½ì–´
+	//final ë©”ì„œë“œëŠ” í•˜ìœ„ í´ë˜ìŠ¤ì—ì„œ ì¬ì •ì˜ (overriding)í•  ìˆ˜ ì—†ìŒ
+	//final í´ë˜ìŠ¤ëŠ” ë” ì´ìƒ ìƒì†ë˜ì§€ ì•ŠìŒ
+	//ex) javaì˜ Stringí´ë˜ìŠ¤
 	
 }

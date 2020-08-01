@@ -1,4 +1,4 @@
-
+ï»¿
 package operator;
 
 public class OperatorEx5 {
@@ -6,7 +6,7 @@ public class OperatorEx5 {
 		
 		int num1 = 10;
 		int i = 2;
-		//short circuit evaluation ´Ü¶ô È¸·Î Æò°¡
+		//short circuit evaluation ë‹¨ë½ íšŒë¡œ í‰ê°€
 		boolean value = ( (num1 = num1 + 10)<10) || ((i = i+2)<10);
 		System.out.println(num1);
 		System.out.println(i);
@@ -14,7 +14,7 @@ public class OperatorEx5 {
 		System.out.println(value);
 		
 		
-		//»ïÇ×¿¬»êÀÚ.
+		//ì‚¼í•­ì—°ì‚°ì.
 		int num2 = 10;
 		int num3 = 20;
 		

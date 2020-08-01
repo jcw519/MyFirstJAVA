@@ -1,4 +1,4 @@
-package date;
+﻿package date;
 
 class MyDate{
 	int day;
@@ -50,7 +50,7 @@ public class MyDateTest {
 		System.out.println(date1.hashCode());
 		System.out.println(date2.hashCode());
 		
-		System.out.println("안녕하세요");
+		System.out.println("?덈뀞?섏꽭??);
 		
 	}
 	

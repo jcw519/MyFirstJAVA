@@ -1,4 +1,4 @@
-package variable;
+﻿package variable;
 
 public class CharTest {
 	public static void main(String[] args) {

@@ -1,14 +1,14 @@
-package reference;
+ï»¿package reference;
 
 public class StudentTest {
 
 	public static void main(String[] args) {
 		
-		Student studentJeong = new Student(201912461,"Á¤Ã¤¿ø");
-		studentJeong.setKoreaSubject("±¹¾î", 95);
-		studentJeong.setMathSubject("¼öÇĞ", 98);
-		studentJeong.setEnglishSubject("¿µ¾î", 98);
-		studentJeong.setSienceSubject("°úÇĞ", 88);
+		Student studentJeong = new Student(201912461,"ì •ì±„ì›");
+		studentJeong.setKoreaSubject("êµ­ì–´", 95);
+		studentJeong.setMathSubject("ìˆ˜í•™", 98);
+		studentJeong.setEnglishSubject("ì˜ì–´", 98);
+		studentJeong.setSienceSubject("ê³¼í•™", 88);
 		
 		
 		studentJeong.showInfoStudent();

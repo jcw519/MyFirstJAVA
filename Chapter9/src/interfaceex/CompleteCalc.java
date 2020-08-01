@@ -1,4 +1,4 @@
-package interfaceex;
+ï»¿package interfaceex;
 
 public class CompleteCalc extends Calculator {
 
@@ -23,12 +23,12 @@ public class CompleteCalc extends Calculator {
 	}
 	
 	public void showInfo() {
-		System.out.println("¸ğµÎ ±¸ÇöÇÏ¿´½À´Ï´Ù.");
+		System.out.println("ëª¨ë‘ êµ¬í˜„í•˜ì˜€ìŠµë‹ˆë‹¤.");
 	}
 	
 	@Override
 	public void description() {
-		System.out.println("ÀçÁ¤ÀÇÇÑ description");
+		System.out.println("ì¬ì •ì˜í•œ description");
 	}
 
 }

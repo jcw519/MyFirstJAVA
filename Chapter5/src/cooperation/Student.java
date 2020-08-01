@@ -1,4 +1,4 @@
-package cooperation;
+ï»¿package cooperation;
 
 public class Student {
 	String studentName;
@@ -23,6 +23,6 @@ public class Student {
 	
 	
 	public void showInfo() {
-		System.out.println(studentName+"´ÔÀÇ ³²Àºµ·Àº "+money+"ÀÔ´Ï´Ù.");
+		System.out.println(studentName+"ë‹˜ì˜ ë‚¨ì€ëˆì€ "+money+"ì…ë‹ˆë‹¤.");
 	}
 }

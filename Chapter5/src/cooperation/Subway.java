@@ -1,4 +1,4 @@
-package cooperation;
+ï»¿package cooperation;
 
 public class Subway {
 	int lineNumber;
@@ -15,7 +15,7 @@ public class Subway {
 	}
 	
 	public void showSubwayInfo() {
-		System.out.println(lineNumber+"È£¼± ÁöÇÏÃ¶¿¡ Å¾½ÂÇÑ ¼Õ´ÔÀº "+ passengerCount+"¸í ÀÔ´Ï´Ù.");
-		System.out.println("¼öÀÔÀº "+money+"ÀÔ´Ï´Ù.");
+		System.out.println(lineNumber+"í˜¸ì„  ì§€í•˜ì² ì— íƒ‘ìŠ¹í•œ ì†ë‹˜ì€ "+ passengerCount+"ëª… ì…ë‹ˆë‹¤.");
+		System.out.println("ìˆ˜ì…ì€ "+money+"ì…ë‹ˆë‹¤.");
 	}
 }

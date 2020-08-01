@@ -1,24 +1,24 @@
-package carex;
+ï»¿package carex;
 
 public class Genesis extends Car{
 	@Override
 	public void start() {
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void drive() {
-		System.out.println("´Ş¸³´Ï´Ù.");
+		System.out.println("ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("¸ØÃä´Ï´Ù.");		
+		System.out.println("ë©ˆì¶¥ë‹ˆë‹¤.");		
 	}
 
 	@Override
 	public void turnoff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");		
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");		
 	}
 }

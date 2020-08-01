@@ -1,4 +1,4 @@
-package arrayList;
+﻿package arrayList;
 
 public class Subject {
 	private String subjectName;

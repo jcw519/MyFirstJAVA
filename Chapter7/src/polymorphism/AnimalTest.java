@@ -1,43 +1,43 @@
-package polymorphism;
+ï»¿package polymorphism;
 
 import java.util.ArrayList;
 
 class Animal{
 	public void move() {
-		System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤.");
 	}
 	
 }
 
 class Human extends Animal	{
 	public void move() {
-		System.out.println("»ç¶÷ÀÌ µÎ¹ß·Î °È½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ë‘ë°œë¡œ ê±·ìŠµë‹ˆë‹¤.");
 	}
 	
-	//¾Æ·¡ ¸Ş¼­µå´Â Å¬·¡½º¿¡¸¸ ÀÖ´Â ¸Ş¼­µåÀÌ¹Ç·Î AnimalÅ¸ÀÔÀ¸·Î 
-	//¸Ş¼­µå¸¦ È£ÃâÇÏ¿© »ç¿ë ºÒ°¡.
+	//ì•„ë˜ ë©”ì„œë“œëŠ” í´ë˜ìŠ¤ì—ë§Œ ìˆëŠ” ë©”ì„œë“œì´ë¯€ë¡œ Animalíƒ€ì…ìœ¼ë¡œ 
+	//ë©”ì„œë“œë¥¼ í˜¸ì¶œí•˜ì—¬ ì‚¬ìš© ë¶ˆê°€.
 	public void readBooks() {
-		System.out.println("»ç¶÷ÀÌ Ã¥À» ÀĞ½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì±…ì„ ì½ìŠµë‹ˆë‹¤.");
 	}
 }
 
 class Tiger extends Animal{
 	public void move() {
-		System.out.println("È£¶ûÀÌ°¡ ³×¹ß·Î ¶İ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ê°€ ë„¤ë°œë¡œ ëœë‹ˆë‹¤.");
 	}
 	
 	public void hunting() {
-		System.out.println("È£¶ûÀÌ°¡ »ç³ÉÀ» ÇÕ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ê°€ ì‚¬ëƒ¥ì„ í•©ë‹ˆë‹¤.");
 	}
 }
 
 class Eagle extends Animal{
 	public void move() {
-		System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³¯¾Æ°©´Ï´Ù..");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚ ì•„ê°‘ë‹ˆë‹¤..");
 	}
 	
 	public void flying() {
-		System.out.println("µ¶¼ö¸®°¡ ³¯°³¸¦ Æì°í ³¯¾Æ°©´Ï´Ù.");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ ë‚ ê°œë¥¼ í´ê³  ë‚ ì•„ê°‘ë‹ˆë‹¤.");
 	}
 }
 

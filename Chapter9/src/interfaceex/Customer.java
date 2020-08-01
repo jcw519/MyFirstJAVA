@@ -1,4 +1,4 @@
-package interfaceex;
+﻿package interfaceex;
 
 public class Customer implements Buy, Sell {
 

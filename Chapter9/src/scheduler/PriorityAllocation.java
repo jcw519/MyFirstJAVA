@@ -1,15 +1,15 @@
-package scheduler;
+ï»¿package scheduler;
 
 public class PriorityAllocation implements Scheduler{
 	@Override
 	public void getNextCall() {
-		System.out.println("°í°´µî±ŞÀÌ ³ôÀº °í°´ÀÇ callÀ» ¸ÕÀú °¡Á®¿É´Ï .");
+		System.out.println("ê³ ê°ë“±ê¸‰ì´ ë†’ì€ ê³ ê°ì˜ callì„ ë¨¼ì € ê°€ì ¸ì˜µë‹ˆ .");
 		
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("¾÷¹« ¼÷·Ãµµ°¡ ³ôÀº »çÒ¤±¿ø¿¡°Ô ¸ÕÀú ¹èºĞÇÕ´Ï´Ù.");
+		System.out.println("ì—…ë¬´ ìˆ™ë ¨ë„ê°€ ë†’ì€ ì‚¬ì•‹ã…ì›ì—ê²Œ ë¨¼ì € ë°°ë¶„í•©ë‹ˆë‹¤.");
 		
 	}
 }

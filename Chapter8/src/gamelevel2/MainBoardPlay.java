@@ -1,10 +1,10 @@
-package gamelevel2;
+ï»¿package gamelevel2;
 
 public class MainBoardPlay {
 
 	public static void main(String[] args) {
 		
-		//player ÀÎ½ºÅÏ½º »ı¼º
+		//player ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 		Player player = new Player();
 		player.play(1);
 		

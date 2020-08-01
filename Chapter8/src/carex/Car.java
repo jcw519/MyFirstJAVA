@@ -1,4 +1,4 @@
-package carex;
+ï»¿package carex;
 
 public abstract class Car {
 	public abstract void start();
@@ -7,7 +7,7 @@ public abstract class Car {
 	public abstract void turnoff();
 	
 	public void washCar() {
-		System.out.println("¼¼Â÷¸¦ ÇÕ´Ï´Ù.");
+		System.out.println("ì„¸ì°¨ë¥¼ í•©ë‹ˆë‹¤.");
 	}
 	
 	final public void run() {

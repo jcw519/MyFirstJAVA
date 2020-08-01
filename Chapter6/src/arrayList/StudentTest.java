@@ -1,19 +1,19 @@
-package arrayList;
+ï»¿package arrayList;
 
 public class StudentTest {
 
 	public static void main(String[] args) {
 
 		Student studentLee = new Student(1001,"Lee");
-		studentLee.addSubject("±¹¾î", 100);
-		studentLee.addSubject("¼öÇĞ", 90);
+		studentLee.addSubject("êµ­ì–´", 100);
+		studentLee.addSubject("ìˆ˜í•™", 90);
 		
 		
 		
 		Student studentKim = new Student(1001,"Kim");
-		studentKim.addSubject("±¹¾î", 100);
-		studentKim.addSubject("¼öÇĞ", 70);
-		studentKim.addSubject("¿µ¾î", 80);
+		studentKim.addSubject("êµ­ì–´", 100);
+		studentKim.addSubject("ìˆ˜í•™", 70);
+		studentKim.addSubject("ì˜ì–´", 80);
 		
 		
 		studentLee.showStudentInfo();

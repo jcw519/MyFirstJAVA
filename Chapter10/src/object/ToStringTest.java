@@ -1,4 +1,4 @@
-package object;
+ï»¿package object;
 
 
 class Book implements Cloneable{
@@ -30,11 +30,11 @@ public class ToStringTest {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		
-		Book book = new Book("ÅäÁö", "¹Ú°æ¸®");
+		Book book = new Book("í† ì§€", "ë°•ê²½ë¦¬");
 		
 		System.out.println(book);
 		
-		String str = new String("ÅäÁö");
+		String str = new String("í† ì§€");
 		
 		System.out.println(str.toString());
 

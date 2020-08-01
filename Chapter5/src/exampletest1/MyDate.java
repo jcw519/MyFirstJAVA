@@ -1,4 +1,4 @@
-package exampletest1;
+ï»¿package exampletest1;
 
 public class MyDate {
 
@@ -70,10 +70,10 @@ public class MyDate {
 	
 	public String isValid() {
 		if(isValid) {
-			return "À¯È¿ÇÑ ³¯Â¥ÀÔ´Ï´Ù.";
+			return "ìœ íš¨í•œ ë‚ ì§œì…ë‹ˆë‹¤.";
 		}
 		else {
-			return "À¯È¿ÇÏÁö ¾ÊÀº ³¯Â¥ÀÔ´Ï´Ù.";
+			return "ìœ íš¨í•˜ì§€ ì•Šì€ ë‚ ì§œì…ë‹ˆë‹¤.";
 		}
 	}
 	
