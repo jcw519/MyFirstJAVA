@@ -1,0 +1,24 @@
+package gamelevel2;
+
+public class Player {
+	
+	PlayerLevel playerlevel;
+	
+	//player가 생성되면 처음 레벨은 비기너이다.
+	public Player() {
+		playerlevel = new BeginnerLevel();
+		playerlevel.showLevelMessage();
+	}
+	
+	public void play(int count) {
+		playerlevel.go(count);
+	}
+
+	public PlayerLevel getPlayerlevel() {
+		return playerlevel;
+	}
+
+	
+	
+	
+}
